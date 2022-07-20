@@ -122,11 +122,24 @@ Blog Section Style Codes Start
 .blog {
     border: 1px solid #D3D3D3;
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
 }
 
-.blog img {
-    width: 100%;
+.flags {
+    display: grid;
+    grid-template-columns: auto 50px auto;
+}
+
+.flags img {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.flags h1 {
+    text-align: center;
+    margin: auto;
 }
 
 .blog button {
@@ -134,24 +147,23 @@ Blog Section Style Codes Start
     border: 0;
     color: #FFFFFF;
     border-radius: 5px;
-    padding: 7px 20px;
-    margin: 10px 0px 0px 10px;
+    padding: 5px 20px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .blog h3 {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    padding: 10px;
-    margin: 0;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .blog p {
     display: inline;
     margin-right: 5%;
     color: rgba(22, 22, 22, 0.7);
-    padding: 10px;
 }
 
 /* ----------------------------
