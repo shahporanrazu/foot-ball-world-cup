@@ -4,3 +4,56 @@ Global Style Codes
 * {
     font-family: 'Ibarra Real Nova', serif;
 }
+
+.hero-section {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 70px 70px 0px 70px;
+}
+
+.texts-content {
+    display: grid;
+
+}
+
+.texts-content h1 {
+    margin: 0;
+    padding-right: 20%;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.texts-content p {
+    padding-right: 20%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.texts-content button {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    border: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+.banner img {
+    float: right;
+    width: 90%;
+
+
+}
