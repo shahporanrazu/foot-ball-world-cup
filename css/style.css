@@ -326,6 +326,16 @@ Hero section Responsive (Mobile) Style Codes End
         margin-bottom: 20px;
     }
 
+    .banner {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .banner img {
+        margin-bottom: -20px;
+    }
+
     .container {
         width: 100%;
         padding: 0;
