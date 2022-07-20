@@ -103,6 +103,11 @@ Blog Section Style Codes Start
     cursor: pointer;
 }
 
+.quick-links button:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
 .quick-links a {
     text-decoration: none;
 }
@@ -196,11 +201,17 @@ Footer Section Style Codes Start
     cursor: pointer;
 }
 
+.menus p:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    color: #DD0000;
+}
+
 /* ----------------------------
 Footer Section Style Codes End
 -------------------------------*/
 /* ----------------------------
-Hero section Responsive Style Codes End
+Hero section Responsive (Tab) Style Codes End
 -------------------------------*/
 @media only screen and (max-width: 768px) {
     .hero-section {
@@ -277,6 +288,10 @@ Hero section Responsive Style Codes End
         justify-content: center;
     }
 }
+
+/* -------------------------------------
+Hero section Responsive (Mobile) Style Codes End
+----------------------------------------*/
 
 @media only screen and (max-width: 375px) {
     .hero-section {

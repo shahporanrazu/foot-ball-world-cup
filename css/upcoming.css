@@ -103,6 +103,11 @@ Blog Section Style Codes Start
     cursor: pointer;
 }
 
+.quick-links button:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
 .quick-links a {
     text-decoration: none;
 }
@@ -164,6 +169,12 @@ Blog Section Style Codes Start
     display: inline;
     margin-right: 5%;
     color: rgba(22, 22, 22, 0.7);
+}
+
+.menus p:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    color: #DD0000;
 }
 
 /* ----------------------------
@@ -289,6 +300,10 @@ Hero section Responsive (Tab) Style Codes End
         justify-content: center;
     }
 }
+
+/* -------------------------------------
+Hero section Responsive (Mobile) Style Codes End
+----------------------------------------*/
 
 @media only screen and (max-width: 375px) {
     .hero-section {
