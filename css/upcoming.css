@@ -211,6 +211,79 @@ Footer Section Style Codes Start
 /* ----------------------------
 Footer Section Style Codes End
 -------------------------------*/
-/* ----------------------------
-Hero section Responsive Style Codes End
--------------------------------*/
+/* -------------------------------------
+Hero section Responsive (Tab) Style Codes End
+----------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .hero-section {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 30px;
+    }
+
+    .texts-content h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0;
+    }
+
+    .texts-content p {
+        margin: 0;
+    }
+
+    .texts-content button {
+        margin: 0;
+        padding: 10px 15px;
+        width: 161px;
+        height: 48px;
+    }
+
+    .banner img {
+        width: 90%;
+        margin-bottom: -20px;
+    }
+
+    .quick-links {
+        height: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .quick-links button {
+        width: 188px;
+        height: 64px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 88%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        width: 78%;
+    }
+
+    .footer-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menus {
+        width: 90%;
+        margin: auto;
+        color: #FFFFFF;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
